@@ -1,0 +1,31 @@
+{
+   "name": "@roddynpm/bs-biniou",
+   "version": "0.0.1",
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/roddyyaga/bs-biniou.git"
+   },
+   "scripts": {
+      "prepare": "npm run clean && bsb -make-world",
+      "clean": "bsb -clean-world",
+      "test": "echo \"Error: no tests specified\" && exit 1"
+   },
+   "keywords": [
+      "BuckleScript",
+      "ReasonML",
+      "OCaml"
+   ],
+   "bugs": {
+      "url": "https://github.com/roddyyaga/bs-biniou/issues"
+   },
+   "homepage": "https://github.com/roddyyaga/bs-biniou#readme",
+   "devDependencies": {
+      "bs-platform": ""
+   },
+   "peerDependencies": {
+      "bs-platform": ""
+   },
+   "dependencies": {
+      "@roddynpm/bs-easy-format": ""
+   }
+}

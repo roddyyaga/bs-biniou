@@ -1,3 +1,13 @@
+*~
 _build
 .merlin
 *.install
+
+# BuckleScript
+node_modules
+**/lib/bs
+**/lib/ocaml
+*.cmj
+*.bs.js
+*.mlast*
+*.mliast*
