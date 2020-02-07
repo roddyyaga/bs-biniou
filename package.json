@@ -1,6 +1,6 @@
 {
    "name": "@roddynpm/bs-biniou",
-   "version": "0.1.0",
+   "version": "0.2.0",
    "repository": {
       "type": "git",
       "url": "git+https://github.com/roddyyaga/bs-biniou.git"
@@ -20,12 +20,12 @@
    },
    "homepage": "https://github.com/roddyyaga/bs-biniou#readme",
    "devDependencies": {
-      "bs-platform": "^6.0.1"
+      "bs-platform": "^7.1.0"
    },
    "peerDependencies": {
-      "bs-platform": "^6.0.1"
+      "bs-platform": "^7.0.0"
    },
    "dependencies": {
-      "@roddynpm/bs-easy-format": ""
+      "@roddynpm/bs-easy-format": "^0.1.0"
    }
 }
